@@ -17,6 +17,15 @@ Run the following commands in your Terminal:
 1. Navigate to the new Django project directory: `cd proj`
 1. Create a new Django app: `python manage.py startapp tasks`
 1. Run the Django development server: `python manage.py runserver
+1. Create môi trường: mkvirtualenv test-1 --python=/usr/bin/python3
+1.Tắt môi trường ảo: $ deactivate
+1. Goi moi truong ao: $ workon test-1
+1. Trong môi trường, cài đặt gói Django bằng pip: $ pip install django
+1. Xuất các package sử dụng ra file requirements.txt
+  $ pip3 freeze > requirements.txt
+1. Và sử dụng để cài các gói đã xuất từ requirements.txt
+  $ pip3 install -r requirements.txt
+
 
 ## Helpful Management Commands
 
