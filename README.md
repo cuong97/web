@@ -26,8 +26,8 @@ Run the following commands in your Terminal:
 1. Và sử dụng để cài các gói đã xuất từ requirements.txt
   * `$ pip3 install -r requirements.txt`
 ## Git
-* `git checkout -b dev-cuong`
-* `git push --set-upstream origin dev-cuong`
+* `git checkout -b dev-cuong` : Tao Nhanh branch
+* `git push --set-upstream origin dev-cuong` : push server
 ## Helpful Management Commands
 
 * `python manage.py makemigrations`: Generates migrations for newly created Django apps.
