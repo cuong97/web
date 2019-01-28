@@ -27,6 +27,7 @@ Run the following commands in your Terminal:
   * `$ pip3 install -r requirements.txt`
 ## Git
 * `git checkout -b dev-cuong`
+* `git push --set-upstream origin dev-cuong`
 ## Helpful Management Commands
 
 * `python manage.py makemigrations`: Generates migrations for newly created Django apps.
