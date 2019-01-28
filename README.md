@@ -25,8 +25,8 @@ Run the following commands in your Terminal:
   * `$ pip3 freeze > requirements.txt`
 1. Và sử dụng để cài các gói đã xuất từ requirements.txt
   * `$ pip3 install -r requirements.txt`
-
-
+## Git
+* `git checkout -b dev-cuong`
 ## Helpful Management Commands
 
 * `python manage.py makemigrations`: Generates migrations for newly created Django apps.
