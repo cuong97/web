@@ -25,6 +25,8 @@ Run the following commands in your Terminal:
   * `$ pip3 freeze > requirements.txt`
 1. Và sử dụng để cài các gói đã xuất từ requirements.txt
   * `$ pip3 install -r requirements.txt`
+1. cập nhật database từ mysql về models
+  * `$ python manage.py inspectdb > blog/models.py`
 ## Git
 * `git branch`
 * `git checkout -b dev-cuong` : Tao Nhanh branch
