@@ -27,6 +27,8 @@ Run the following commands in your Terminal:
   * `$ pip3 install -r requirements.txt`
 1. cập nhật database từ mysql về models
   * `$ python manage.py inspectdb > blog/models.py`
+  
+* `exec(open("./web/test_bcrypt.py").read())`
 ## Git
 * `git branch`
 * `git checkout -b dev-cuong` : Tao Nhanh branch
