@@ -30,6 +30,11 @@ Run the following commands in your Terminal:
   
 * `exec(open("./web/test_bcrypt.py").read())`
 * `git reset --soft HEAD^`
+* `CREATE DATABASE vna CHARACTER SET utf8 COLLATE utf8_general_ci;
+* `CREATE USER 'vna'@'localhost' IDENTIFIED BY 'vna123';`
+* `SET GLOBAL validate_password_length = 6;`
+* `SET GLOBAL validate_password_number_count = 0;`
+* `SET GLOBAL validate_password_policy=LOW;`
 ## Git
 * `git branch`
 * `git checkout -b dev-cuong` : Tao Nhanh branch
