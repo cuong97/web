@@ -29,6 +29,7 @@ Run the following commands in your Terminal:
   * `$ python manage.py inspectdb > blog/models.py`
   
 * `exec(open("./web/test_bcrypt.py").read())`
+* `git reset --soft HEAD^`
 ## Git
 * `git branch`
 * `git checkout -b dev-cuong` : Tao Nhanh branch
