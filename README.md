@@ -35,6 +35,7 @@ Run the following commands in your Terminal:
 * `SET GLOBAL validate_password_length = 6;`
 * `SET GLOBAL validate_password_number_count = 0;`
 * `SET GLOBAL validate_password_policy=LOW;`
+* `compilemessages and makemessages -l 'fr'`
 ## Git
 * `git branch`
 * `git checkout -b dev-cuong` : Tao Nhanh branch
