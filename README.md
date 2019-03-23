@@ -27,7 +27,8 @@ Run the following commands in your Terminal:
   * `$ pip3 install -r requirements.txt`
 1. cập nhật database từ mysql về models
   * `$ python manage.py inspectdb > blog/models.py`
-  
+-- load data to json
+* `python manage.py loaddata app_name`
 * `exec(open("./web/test_bcrypt.py").read())`
 * `git reset --soft HEAD^`
 * `CREATE DATABASE vna CHARACTER SET utf8 COLLATE utf8_general_ci;
