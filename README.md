@@ -37,6 +37,14 @@ Run the following commands in your Terminal:
 * `SET GLOBAL validate_password_number_count = 0;`
 * `SET GLOBAL validate_password_policy=LOW;`
 * `compilemessages and makemessages -l 'fr'`
+
+## flask
+-- connect mysql = mysql-connector-python
+* `DATABSE_URI = 'mysql+mysqlconnector://{user}:{password}@{server}/{database}'.format(
+    user=username, password=password, server=server, database=database_name)`
+-- connect mysql = mysqlclient
+* `DATABSE_URI = 'mysql://{user}:{password}@{server}/{database}'.format(
+    user=username, password=password, server=server, database=database_name)`
 ## Git
 * `git branch`
 * `git checkout -b dev-cuong` : Tao Nhanh branch
