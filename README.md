@@ -51,6 +51,7 @@ Run the following commands in your Terminal:
 * `git push --set-upstream origin dev-cuong` : push server
 * `git chackout`
 * `git merge`
+* `git cherry-pick ...`
 * [Git cơ bản](https://backlog.com/git-tutorial/vn/stepup/stepup7_5.html)
 ## Helpful Management Commands
 
