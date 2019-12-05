@@ -77,3 +77,6 @@ The best tutorial for Django is located within the documentation. Follow all six
 * [Views: Shortcuts](https://docs.djangoproject.com/en/2.0/topics/http/shortcuts/)
 * [Templates: Overview](https://docs.djangoproject.com/en/2.0/topics/templates/)
 * [Templates: Built-in Template Tags and Filters](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/)
+
+## Face Recognition
+**full documentation located here**: https://github.com/ageitgey/face_recognition
