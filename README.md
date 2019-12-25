@@ -80,3 +80,9 @@ The best tutorial for Django is located within the documentation. Follow all six
 
 ## Face Recognition
 **full documentation located here**: https://github.com/ageitgey/face_recognition
+
+## add key ssh github
+* ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+* /home/cuong/.ssh/id_rsa_...
+* cat /home/cuong/.ssh/id_rsa.pub
+* run: ssh-add ~/.ssh/id_rsa
