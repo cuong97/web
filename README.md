@@ -52,6 +52,8 @@ Run the following commands in your Terminal:
 * `git chackout`
 * `git merge`
 * `git cherry-pick ...`
+* `git stash` `->` `git stash pop`
+* `git pull --rebase`
 * [Git cơ bản](https://backlog.com/git-tutorial/vn/stepup/stepup7_5.html)
 ## Helpful Management Commands
 
