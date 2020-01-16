@@ -88,3 +88,5 @@ The best tutorial for Django is located within the documentation. Follow all six
 * /home/cuong/.ssh/id_rsa_...
 * cat /home/cuong/.ssh/id_rsa.pub
 * run: ssh-add ~/.ssh/id_rsa
+
+** sudo apt-get install libmysqlclient-dev python3-dev
