@@ -54,9 +54,9 @@ Run the following commands in your Terminal:
 * `git cherry-pick ...`
 * `git stash` `->` `git stash pop`
 * `git pull --rebase`
-add remote `git remote add origin https://github.com/user/repo.git`
-Gộp commit đã push `git rebase -i HEAD~(vị trí commit)`
-Gộp commit chưa push `git commit --amend`
+* add remote `git remote add origin https://github.com/user/repo.git`
+* Gộp commit đã push `git rebase -i HEAD~(vị trí commit)`
+* Gộp commit chưa push `git commit --amend`
 * [docs] (https://docs.github.com/en/github/using-git/renaming-a-remote)
 * [Git cơ bản](https://backlog.com/git-tutorial/vn/stepup/stepup7_5.html)
 ## Helpful Management Commands
